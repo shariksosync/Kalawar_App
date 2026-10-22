@@ -1,0 +1,57 @@
+[
+  {
+    "id": "6ab37c658fc2e1de9ad09787",
+    "name": "Shubham",
+    "rating": 5,
+    "comment": "no bro",
+    "photo": "https://res.cloudinary.com/tridevsosync/image/upload/v1790147680/kalawar_common_reviews/mjhlh3v9fvch4oa8spka.jpg",
+    "status": "Approved",
+    "helpfulVotes": 0,
+    "createdAt": "2026-09-23T07:14:45.327Z",
+    "updatedAt": "2026-09-23T07:16:55.967Z"
+  },
+  {
+    "id": "6ab37c0d8fc2e1de9ad09786",
+    "name": "Suman",
+    "rating": 4,
+    "comment": "Chal na",
+    "photo": "",
+    "status": "Rejected",
+    "helpfulVotes": 0,
+    "createdAt": "2026-09-23T07:13:17.521Z",
+    "updatedAt": "2026-09-23T07:18:16.413Z"
+  },
+  {
+    "id": "crev-2026-001",
+    "name": "Vikramaditya Shinde",
+    "rating": 5,
+    "comment": "Outstanding national platform for traditional Indian martial arts and combat sports. The referee clinic certification and transparent Dan grading standards have transformed the standards of our academy. Very proud to be affiliated with KALAWAR Federation!",
+    "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop",
+    "status": "Approved",
+    "helpfulVotes": 12,
+    "createdAt": "2026-03-15T10:30:00.000Z",
+    "updatedAt": "2026-03-15T10:30:00.000Z"
+  },
+  {
+    "id": "crev-2026-002",
+    "name": "Pooja Deshmukh",
+    "rating": 5,
+    "comment": "The digital QR certificate verification and athlete ID cards make our tournament participation completely seamless. Excellent leadership and dedicated organizing committee.",
+    "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop",
+    "status": "Approved",
+    "helpfulVotes": 9,
+    "createdAt": "2026-03-18T14:20:00.000Z",
+    "updatedAt": "2026-03-18T14:20:00.000Z"
+  },
+  {
+    "id": "crev-2026-003",
+    "name": "Master Rajesh Kulkarni",
+    "rating": 5,
+    "comment": "KALAWAR provides grassroots athletes with world-class championship tatamis and certified coaching pathways. The discipline and ethical sportsmanship taught here are commendable.",
+    "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
+    "status": "Approved",
+    "helpfulVotes": 15,
+    "createdAt": "2026-03-20T09:15:00.000Z",
+    "updatedAt": "2026-03-20T09:15:00.000Z"
+  }
+]

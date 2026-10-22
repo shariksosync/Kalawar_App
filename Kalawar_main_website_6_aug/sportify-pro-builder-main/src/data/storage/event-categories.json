@@ -1,0 +1,58 @@
+[
+  {
+    "id": "EVT-CAT-01",
+    "name": "National Championship",
+    "order": 1,
+    "createdAt": "2026-09-21T21:01:57.078Z",
+    "updatedAt": "2026-09-21T21:01:57.078Z"
+  },
+  {
+    "id": "EVT-CAT-02",
+    "name": "State Championship & Qualifiers",
+    "order": 2,
+    "createdAt": "2026-09-21T21:01:57.080Z",
+    "updatedAt": "2026-09-21T21:01:57.080Z"
+  },
+  {
+    "id": "EVT-CAT-03",
+    "name": "District & Club Tournament",
+    "order": 3,
+    "createdAt": "2026-09-21T21:01:57.080Z",
+    "updatedAt": "2026-09-21T21:01:57.080Z"
+  },
+  {
+    "id": "EVT-CAT-04",
+    "name": "Selection Trials",
+    "order": 4,
+    "createdAt": "2026-09-21T21:01:57.080Z",
+    "updatedAt": "2026-09-21T21:01:57.080Z"
+  },
+  {
+    "id": "EVT-CAT-05",
+    "name": "Belt & Dan Examination",
+    "order": 5,
+    "createdAt": "2026-09-21T21:01:57.081Z",
+    "updatedAt": "2026-09-21T21:01:57.081Z"
+  },
+  {
+    "id": "EVT-CAT-06",
+    "name": "National Training Camp & Seminar",
+    "order": 6,
+    "createdAt": "2026-09-21T21:01:57.081Z",
+    "updatedAt": "2026-09-21T21:01:57.081Z"
+  },
+  {
+    "id": "EVT-CAT-07",
+    "name": "Referee & Officials Clinic",
+    "order": 7,
+    "createdAt": "2026-09-21T21:01:57.081Z",
+    "updatedAt": "2026-09-21T21:01:57.081Z"
+  },
+  {
+    "id": "EVT-CAT-08",
+    "name": "Championship",
+    "order": 8,
+    "createdAt": "2026-09-21T21:02:40.143Z",
+    "updatedAt": "2026-09-21T21:02:40.143Z"
+  }
+]

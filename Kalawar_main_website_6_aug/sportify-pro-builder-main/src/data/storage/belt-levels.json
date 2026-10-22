@@ -1,0 +1,483 @@
+[
+  {
+    "id": "yellow",
+    "name": "Yellow Belt",
+    "nameHindi": "पीली बेल्ट",
+    "gupDan": "8th Gup",
+    "anukkamaNumber": 1,
+    "anukkamaName": "Aarambha",
+    "anukkamaNameHindi": "आरम्भ",
+    "beltColorName": "Yellow",
+    "beltColorNameHindi": "पीला",
+    "beltEmoji": "🟡",
+    "badgeColor": "bg-amber-400 text-stone-950",
+    "borderColor": "border-amber-400",
+    "textColor": "text-amber-400",
+    "bgGradient": "from-amber-400 to-yellow-600",
+    "minTrainingMonths": 3,
+    "templateFile": "yellow-belt.png",
+    "summary": "Signifies the golden earth from which a plant sprouts and takes initial roots.",
+    "syllabus": {
+      "forms": [
+        "Basic 4-Direction Punching (Saju Jirugi)",
+        "Dan-Gun Pattern (21 Movements)"
+      ],
+      "techniques": [
+        "Walking Stance (Gunnun Sogi) & L-Stance (Niunja Sogi)",
+        "Front Snap Kick (Ap Chagi)",
+        "Low Block (Najunde Makgi)",
+        "Middle Punch (Kaunde Jirugi)"
+      ],
+      "sparring": [
+        "Basic 3-Step Pre-Arranged Sparring Drills (Sambo Matsogi)"
+      ],
+      "selfDefense": [
+        "Basic Wrist Grab Release (Single Hand)"
+      ],
+      "breaking": [
+        "1/2 Inch Pine Board with Front Kick"
+      ],
+      "theory": [
+        "Meaning of Yellow Belt",
+        "Federation Tenets: Courtesy, Integrity, Perseverance, Self-Control",
+        "Dojo Rules & Bowing Protocol"
+      ]
+    }
+  },
+  {
+    "id": "yellow-1",
+    "name": "Yellow Belt-1",
+    "nameHindi": "पीली बेल्ट-1",
+    "gupDan": "7th Gup",
+    "anukkamaNumber": 2,
+    "anukkamaName": "Pravesh",
+    "anukkamaNameHindi": "प्रवेश",
+    "beltColorName": "Yellow",
+    "beltColorNameHindi": "पीला",
+    "beltEmoji": "🟡",
+    "badgeColor": "bg-amber-500 text-stone-950",
+    "borderColor": "border-amber-500",
+    "textColor": "text-amber-500",
+    "bgGradient": "from-amber-500 to-yellow-700",
+    "minTrainingMonths": 3,
+    "templateFile": "yellow-belt-1.png",
+    "summary": "Refines basic footwork and introduces consecutive punching and counter-blocking.",
+    "syllabus": {
+      "forms": [
+        "Taegeuk Il Jang (1st Pattern - Keon/Heaven)"
+      ],
+      "techniques": [
+        "Roundhouse Kick (Dollyo Chagi)",
+        "Rising High Block (Chukyo Makgi)",
+        "Knife-Hand Guarding Block (Sonkal Daebi Makgi)"
+      ],
+      "sparring": [
+        "3-Step Controlled Distance Sparring (No Contact)"
+      ],
+      "selfDefense": [
+        "Release against Two-Hand Wrist Grab",
+        "Collar Grab Defense"
+      ],
+      "breaking": [
+        "1/2 Inch Pine Board with Side Kick"
+      ],
+      "theory": [
+        "Significance of Yellow Belt-1 Progression",
+        "Korean/Japanese terminology for stances and basic kicks"
+      ]
+    }
+  },
+  {
+    "id": "green",
+    "name": "Green Belt",
+    "nameHindi": "हरी बेल्ट",
+    "gupDan": "6th Gup",
+    "anukkamaNumber": 3,
+    "anukkamaName": "Gati",
+    "anukkamaNameHindi": "गति",
+    "beltColorName": "Green",
+    "beltColorNameHindi": "हरा",
+    "beltEmoji": "🟢",
+    "badgeColor": "bg-emerald-500 text-white",
+    "borderColor": "border-emerald-500",
+    "textColor": "text-emerald-400",
+    "bgGradient": "from-emerald-500 to-green-700",
+    "minTrainingMonths": 6,
+    "templateFile": "green-belt.png",
+    "summary": "Signifies the plant's growth as martial art skills begin to develop and flourish.",
+    "syllabus": {
+      "forms": [
+        "Taegeuk Sam Jang / Sa Jang",
+        "Do-San / Won-Hyo Pattern (28 Movements)"
+      ],
+      "techniques": [
+        "Back Thrust Kick (Dwi Chagi)",
+        "Axe / Downward Kick (Naeryeo Chagi)",
+        "Double Forearm Block (Doo Palmok Makgi)",
+        "Reverse Knife-Hand Strike (Sonkal Dung Taerigi)"
+      ],
+      "sparring": [
+        "2-Step Semi-Free Sparring with Protective Gear"
+      ],
+      "selfDefense": [
+        "Defense against Bear Hug from Front & Rear",
+        "Basic Choke Escape"
+      ],
+      "breaking": [
+        "1 Inch Pine Board with Side Kick or Turning Kick"
+      ],
+      "theory": [
+        "Definition of Martial Arts Power: Mass x Acceleration",
+        "Vital Points (Injung, Myongchi, Danjon)",
+        "Federation Tournament Rules Overview"
+      ]
+    }
+  },
+  {
+    "id": "green-1",
+    "name": "Green Belt-1",
+    "nameHindi": "हरी बेल्ट-1",
+    "gupDan": "5th Gup",
+    "anukkamaNumber": 4,
+    "anukkamaName": "Santulan",
+    "anukkamaNameHindi": "संतुलन",
+    "beltColorName": "Green",
+    "beltColorNameHindi": "हरा",
+    "beltEmoji": "🟢",
+    "badgeColor": "bg-emerald-600 text-white",
+    "borderColor": "border-emerald-600",
+    "textColor": "text-emerald-500",
+    "bgGradient": "from-emerald-600 to-green-800",
+    "minTrainingMonths": 4,
+    "templateFile": "green-belt-1.png",
+    "summary": "Consolidates intermediate agility, reverse turning strikes, and evasion footwork.",
+    "syllabus": {
+      "forms": [
+        "Taegeuk Sam Jang (3rd Pattern - Ri/Fire and Sun)"
+      ],
+      "techniques": [
+        "Back Kick (Dwi Chagi)",
+        "Double Forearm Block (Doo Palmok Makgi)",
+        "Spear Finger Thrust (Pyon Sonkkut Tulgi)"
+      ],
+      "sparring": [
+        "Semi-Free Controlled Tactical Sparring"
+      ],
+      "selfDefense": [
+        "Rear Choke Escape & Elbow Counter",
+        "Armlock Takedown Counter"
+      ],
+      "breaking": [
+        "3/4 Inch Board with Back Kick"
+      ],
+      "theory": [
+        "Biomechanics of Rotational Force in Back Kicks",
+        "History of Kalawar Traditional Martial Lineage"
+      ]
+    }
+  },
+  {
+    "id": "blue",
+    "name": "Blue Belt",
+    "nameHindi": "नीली बेल्ट",
+    "gupDan": "4th Gup",
+    "anukkamaNumber": 5,
+    "anukkamaName": "Raksha",
+    "anukkamaNameHindi": "रक्षा",
+    "beltColorName": "Blue",
+    "beltColorNameHindi": "नीला",
+    "beltEmoji": "🔵",
+    "badgeColor": "bg-blue-500 text-white",
+    "borderColor": "border-blue-500",
+    "textColor": "text-blue-400",
+    "bgGradient": "from-blue-500 to-cyan-700",
+    "minTrainingMonths": 9,
+    "templateFile": "blue-belt.png",
+    "summary": "Signifies the Heaven towards which the plant matures into a towering tree as training progresses.",
+    "syllabus": {
+      "forms": [
+        "Taegeuk Oh Jang / Yuk Jang",
+        "Yul-Gok / Joong-Gun Pattern (32 Movements)"
+      ],
+      "techniques": [
+        "Spinning Hook Kick (Bandae Dollyo Chagi)",
+        "Jumping Front Kick (Twimyo Ap Chagi)",
+        "Circular Palm Block (Bandal Makgi)",
+        "Elbow Strikes (Palkup Taerigi)"
+      ],
+      "sparring": [
+        "1-Step Combat Sparring + Free Sparring (3 Rounds x 2 Mins)"
+      ],
+      "selfDefense": [
+        "Lapel Grab Counter with Joint Lock",
+        "Takedown & Ground Control"
+      ],
+      "breaking": [
+        "1 Inch Board with Back Kick or Jumping Front Kick"
+      ],
+      "theory": [
+        "Theory of Focus and Reaction Force (Bandong Ryok)",
+        "Kicking Angles and Pivot Mechanics",
+        "Referee Signals & Scoring System in Official Championships"
+      ]
+    }
+  },
+  {
+    "id": "blue-1",
+    "name": "Blue Belt-1",
+    "nameHindi": "नीली बेल्ट-1",
+    "gupDan": "3rd Gup",
+    "anukkamaNumber": 6,
+    "anukkamaName": "Pratikrama",
+    "anukkamaNameHindi": "प्रतिक्रम",
+    "beltColorName": "Blue",
+    "beltColorNameHindi": "नीला",
+    "beltEmoji": "🔵",
+    "badgeColor": "bg-blue-600 text-white",
+    "borderColor": "border-blue-600",
+    "textColor": "text-blue-500",
+    "bgGradient": "from-blue-600 to-indigo-700",
+    "minTrainingMonths": 5,
+    "templateFile": "blue-belt-1.png",
+    "summary": "Advances jumping combinations, high aerial target accuracy, and clinch defense.",
+    "syllabus": {
+      "forms": [
+        "Taegeuk Oh Jang (5th Pattern - Seon/Wind)"
+      ],
+      "techniques": [
+        "Jumping Front Kick (Twimyo Ap Chagi)",
+        "Jumping Side Kick (Twimyo Yop Chagi)",
+        "X-Fist Pressing Block (Kyocha Jumeok Nullo Makgi)"
+      ],
+      "sparring": [
+        "Full-Contact Tactical Combat Sparring (Continuous 2 Rounds)"
+      ],
+      "selfDefense": [
+        "Defense against Ground Pins & Mount Escapes"
+      ],
+      "breaking": [
+        "1 Inch Board with Jumping Side Kick"
+      ],
+      "theory": [
+        "Vital Targets & Pressure Points in Kalawar Martial Arts",
+        "Scoring Rules in National Olympic/WT Combat Tournaments"
+      ]
+    }
+  },
+  {
+    "id": "red",
+    "name": "Red Belt",
+    "nameHindi": "लाल बेल्ट",
+    "gupDan": "2nd Gup",
+    "anukkamaNumber": 7,
+    "anukkamaName": "Veg",
+    "anukkamaNameHindi": "वेग",
+    "beltColorName": "Red",
+    "beltColorNameHindi": "लाल",
+    "beltEmoji": "🔴",
+    "badgeColor": "bg-red-500 text-white",
+    "borderColor": "border-red-500",
+    "textColor": "text-red-400",
+    "bgGradient": "from-red-500 to-rose-700",
+    "minTrainingMonths": 6,
+    "templateFile": "red-belt.png",
+    "summary": "Signifies danger, cautioning the student to exercise self-control and warning opponents.",
+    "syllabus": {
+      "forms": [
+        "Taegeuk Yuk Jang (6th Pattern - Gam/Water)",
+        "Yul-Gok Pattern (38 Movements)"
+      ],
+      "techniques": [
+        "Jumping Spinning Hook Kick (Twimyo Bandae Dollyo Chagi)",
+        "Twin Knife-Hand Inward Block",
+        "Reverse Ridgehand Strike (Yok Sonkal Taerigi)"
+      ],
+      "sparring": [
+        "Free Sparring against Multiple Targets (2 vs 1 Controlled)"
+      ],
+      "selfDefense": [
+        "Weapon Defense against Stick / Club Strikes"
+      ],
+      "breaking": [
+        "1 Inch Board with Jumping Spinning Hook Kick"
+      ],
+      "theory": [
+        "Meaning of Red Belt & Responsibility of Senior Students",
+        "Moral Code of the Martial Artist & Anti-Bullying Leadership"
+      ]
+    }
+  },
+  {
+    "id": "red-1",
+    "name": "Red Belt-1",
+    "nameHindi": "लाल बेल्ट-1",
+    "gupDan": "1st Gup Senior",
+    "anukkamaNumber": 8,
+    "anukkamaName": "Shakti",
+    "anukkamaNameHindi": "शक्ति",
+    "beltColorName": "Red",
+    "beltColorNameHindi": "लाल",
+    "beltEmoji": "🔴",
+    "badgeColor": "bg-red-600 text-white",
+    "borderColor": "border-red-600",
+    "textColor": "text-red-500",
+    "bgGradient": "from-red-600 to-rose-800",
+    "minTrainingMonths": 6,
+    "templateFile": "red-belt-1.png",
+    "summary": "Demonstrates advanced fluidity across complex patterns and high-impact kicking combinations.",
+    "syllabus": {
+      "forms": [
+        "Taegeuk Chil Jang (7th Pattern - Gan/Mountain)",
+        "Toi-Gye Pattern (37 Movements)"
+      ],
+      "techniques": [
+        "360 Tornado Kick (Dolgae Chagi)",
+        "Low Scissors Block (Kawi Makgi)",
+        "Knee Strike & Clinch Control (Mureup Chigi)"
+      ],
+      "sparring": [
+        "Advanced Continuous Tournament Sparring with Electronic Target Sensors"
+      ],
+      "selfDefense": [
+        "Blunt Weapon Disarm & Ground Submission Transitions"
+      ],
+      "breaking": [
+        "Two 1-inch Pine Boards with Consecutive Kicks"
+      ],
+      "theory": [
+        "Philosophy of Mountain (Gan) Pattern & Stability Under Pressure",
+        "Judging Criteria in Federation Poomsae/Kata Championships"
+      ]
+    }
+  },
+  {
+    "id": "red-2",
+    "name": "Red Belt-2",
+    "nameHindi": "लाल बेल्ट-2",
+    "gupDan": "1st Gup Advanced",
+    "anukkamaNumber": 9,
+    "anukkamaName": "Kaushalya",
+    "anukkamaNameHindi": "कौशल्य",
+    "beltColorName": "Red",
+    "beltColorNameHindi": "लाल",
+    "beltEmoji": "🔴",
+    "badgeColor": "bg-red-700 text-white",
+    "borderColor": "border-red-700",
+    "textColor": "text-red-600",
+    "bgGradient": "from-red-700 to-rose-900",
+    "minTrainingMonths": 6,
+    "templateFile": "red-belt-2.png",
+    "summary": "Pre-black belt preparatory mastery encompassing full power generation and assistant teaching.",
+    "syllabus": {
+      "forms": [
+        "Taegeuk Pal Jang (8th Pattern - Gon/Earth)",
+        "Hwa-Rang Pattern (29 Movements)"
+      ],
+      "techniques": [
+        "Flying Side Kick over Obstacles (Twimyo Neomeo Chagi)",
+        "Mountain Block (Santeul Makgi)",
+        "Double Fist Low Block (Doo Jumeok Najunde Makgi)"
+      ],
+      "sparring": [
+        "High-Intensity Continuous 3-Round Tournament Sparring"
+      ],
+      "selfDefense": [
+        "Bladed Weapon Disarms & Multiple Threat De-escalation"
+      ],
+      "breaking": [
+        "Three 1-inch Pine Boards with Jumping Kick Demolition"
+      ],
+      "theory": [
+        "The Complete 8 Trigrams of Taegeuk Philosophy",
+        "Sports Injury First Aid & Dojo Class Management Principles"
+      ]
+    }
+  },
+  {
+    "id": "red-3",
+    "name": "Red Belt-3",
+    "nameHindi": "लाल बेल्ट-3",
+    "gupDan": "Pre-Black Candidate",
+    "anukkamaNumber": 10,
+    "anukkamaName": "Yuddha",
+    "anukkamaNameHindi": "युद्ध",
+    "beltColorName": "Red",
+    "beltColorNameHindi": "लाल",
+    "beltEmoji": "🔴",
+    "badgeColor": "bg-rose-700 text-white",
+    "borderColor": "border-rose-700",
+    "textColor": "text-rose-500",
+    "bgGradient": "from-rose-700 to-red-950",
+    "minTrainingMonths": 6,
+    "templateFile": "red-belt-3.png",
+    "summary": "Comprehensive Black Belt Candidate evaluation testing extreme physical and mental resilience.",
+    "syllabus": {
+      "forms": [
+        "All 8 Taegeuk Patterns in Rapid Successive Demonstration",
+        "Choong-Moo Pattern (30 Movements)"
+      ],
+      "techniques": [
+        "540 Jumping Spinning Hook Kick",
+        "Combination Kicking: 5 High Kicks in 3 Seconds",
+        "Full Combat Clinch Disengagement"
+      ],
+      "sparring": [
+        "Iron Man Sparring (5 Consecutive Rounds with Rotating Fresh Opponents)"
+      ],
+      "selfDefense": [
+        "Comprehensive Self-Defense Demonstration against Armed Attackers"
+      ],
+      "breaking": [
+        "Power Breaking: 4 Composite Boards with Hand Strike & Kicking"
+      ],
+      "theory": [
+        "The Warrior Mindset (Mushin) & Integrity in Martial Arts",
+        "Complete Federation Technical Syllabus Review"
+      ]
+    }
+  },
+  {
+    "id": "junior-black",
+    "name": "Junior Black Belt",
+    "nameHindi": "जूनियर ब्लैक बेल्ट",
+    "gupDan": "Poom / Junior Dan",
+    "anukkamaNumber": 11,
+    "anukkamaName": "Sangama",
+    "anukkamaNameHindi": "संगम",
+    "beltColorName": "Black",
+    "beltColorNameHindi": "काला",
+    "beltEmoji": "⚫",
+    "badgeColor": "bg-stone-900 text-amber-400 border border-amber-400/50",
+    "borderColor": "border-stone-800",
+    "textColor": "text-amber-400",
+    "bgGradient": "from-stone-900 to-black",
+    "minTrainingMonths": 6,
+    "templateFile": "junior-black-belt.png",
+    "summary": "Signifies the dawn of master-level dedication and transition into senior Dan ranking.",
+    "syllabus": {
+      "forms": [
+        "Koryo Poomsae (First Black Belt Pattern)",
+        "Bassai Dai / Gwang-Gae Mastery"
+      ],
+      "techniques": [
+        "Precision Point Striking & Pressure Point Control",
+        "Speed Kicking Combinations on Moving Shields",
+        "Acrobatic / Demonstration Kicking Sequences"
+      ],
+      "sparring": [
+        "Senior Dan Tactical Sparring (Olympic & Traditional Rules)"
+      ],
+      "selfDefense": [
+        "Master-Level Multiple Armed Opponent Defense",
+        "Joint Manipulations, Throws & Restraints"
+      ],
+      "breaking": [
+        "Multi-Directional Aerial Board Demolition (3 Stations)"
+      ],
+      "theory": [
+        "Philosophy of Koryo & The Indomitable Spirit",
+        "Instructor Etiquette, Teaching Pedagogy & Federation Examination Leadership"
+      ]
+    }
+  }
+]

@@ -1,0 +1,182 @@
+/* ==============================================================================
+   SUPER ADMIN CONTROL PANEL STYLES
+   ============================================================================== */
+
+.super-admin-wrapper {
+  background: var(--bg-primary);
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg), var(--shadow-gold);
+  margin-top: 20px;
+}
+
+.admin-top-bar {
+  background: #06070a;
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 16px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-brand-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.admin-portal-badge {
+  background: var(--gold-gradient);
+  color: #000;
+  font-weight: 800;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: var(--radius-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.admin-main-container {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: 600px;
+}
+
+/* Admin Sidebar */
+.admin-sidebar {
+  background: var(--bg-secondary);
+  border-right: 1px solid var(--border-subtle);
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.admin-nav-item button {
+  width: 100%;
+  padding: 12px 24px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-secondary);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.92rem;
+  transition: all var(--transition-fast);
+  border-left: 3px solid transparent;
+}
+
+.admin-nav-item button:hover {
+  background: var(--bg-surface);
+  color: #ffffff;
+}
+
+.admin-nav-item.active button {
+  background: var(--gold-subtle);
+  color: var(--gold-primary);
+  border-left-color: var(--gold-primary);
+}
+
+.admin-badge-count {
+  margin-left: auto;
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+/* Admin Content Area */
+.admin-content-pane {
+  padding: 32px;
+  background: var(--bg-card);
+  overflow-y: auto;
+}
+
+.admin-view-tab {
+  display: none;
+}
+
+.admin-view-tab.active {
+  display: block;
+  animation: fadeIn 0.25s ease-out;
+}
+
+.admin-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.admin-section-header h3 {
+  font-size: 1.5rem;
+}
+
+/* Moderation Card Grid */
+.mod-posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.mod-post-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.mod-post-thumb {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.mod-post-body {
+  padding: 16px;
+  flex-grow: 1;
+}
+
+.mod-post-author {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.mod-post-caption {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.mod-post-footer {
+  padding: 12px 16px;
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+  .admin-main-container {
+    grid-template-columns: 1fr;
+  }
+  .admin-sidebar {
+    border-right: none;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+}

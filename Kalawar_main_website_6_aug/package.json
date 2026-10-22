@@ -1,0 +1,11 @@
+{
+  "name": "sportify-pro-builder-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix sportify-pro-builder-main run dev",
+    "build": "npm --prefix sportify-pro-builder-main run build",
+    "start": "npm --prefix sportify-pro-builder-main run start",
+    "lint": "npm --prefix sportify-pro-builder-main run lint"
+  }
+}

@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+
+  --font-sans: "Outfit", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Outfit", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+
+  --color-gold: var(--gold);
+  --color-gold-deep: var(--gold-deep);
+  --color-gold-300: oklch(0.88 0.1 90);
+  --color-gold-400: oklch(0.82 0.12 88);
+  --color-gold-500: oklch(0.78 0.126 87.5);
+  --color-gold-600: oklch(0.68 0.13 80);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-surface: var(--surface);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.75rem;
+
+  --ink: oklch(0.145 0 0);
+  --ink-soft: oklch(0.21 0 0);
+  --gold: oklch(0.78 0.126 87.5);
+  --gold-deep: oklch(0.64 0.126 78);
+  --surface: oklch(0.98 0.002 90);
+
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.98 0.002 90);
+  --card: oklch(0.19 0.003 90);
+  --card-foreground: oklch(0.98 0.002 90);
+  --popover: oklch(0.19 0.003 90);
+  --popover-foreground: oklch(0.98 0.002 90);
+  --primary: oklch(0.78 0.126 87.5);
+  --primary-foreground: oklch(0.145 0 0);
+  --secondary: oklch(0.25 0.004 90);
+  --secondary-foreground: oklch(0.98 0.002 90);
+  --muted: oklch(0.25 0.004 90);
+  --muted-foreground: oklch(0.72 0.006 90);
+  --accent: oklch(0.28 0.02 85);
+  --accent-foreground: oklch(0.9 0.09 87);
+  --destructive: oklch(0.6 0.21 25);
+  --destructive-foreground: oklch(0.98 0.002 90);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
+  --ring: oklch(0.78 0.126 87.5);
+
+  --chart-1: oklch(0.78 0.126 87.5);
+  --chart-2: oklch(0.64 0.126 78);
+  --chart-3: oklch(0.72 0.006 90);
+  --chart-4: oklch(0.55 0.09 60);
+  --chart-5: oklch(0.9 0.05 95);
+
+  --sidebar: oklch(0.17 0.002 90);
+  --sidebar-foreground: oklch(0.93 0.002 90);
+  --sidebar-primary: oklch(0.78 0.126 87.5);
+  --sidebar-primary-foreground: oklch(0.145 0 0);
+  --sidebar-accent: oklch(0.24 0.004 90);
+  --sidebar-accent-foreground: oklch(0.9 0.09 87);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.78 0.126 87.5);
+
+  --gradient-gold: linear-gradient(120deg, oklch(0.64 0.126 78), oklch(0.88 0.11 92), oklch(0.7 0.13 82));
+  --gradient-ink: linear-gradient(160deg, oklch(0.17 0 0), oklch(0.11 0 0));
+  --shadow-luxe: 0 24px 70px -28px oklch(0 0 0 / 0.85);
+  --shadow-gold: 0 18px 50px -22px oklch(0.78 0.126 87.5 / 0.55);
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+html {
+  overflow-x: hidden;
+  max-width: 100vw;
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    max-width: 100vw;
+    width: 100%;
+    position: relative;
+  }
+
+  ::selection {
+    background: var(--gold);
+    color: var(--ink);
+  }
+}
+
+@utility text-gold-gradient {
+  background-image: var(--gradient-gold);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@utility bg-gold-gradient {
+  background-image: var(--gradient-gold);
+}
+
+@utility glass {
+  background: color-mix(in oklab, var(--card) 88%, transparent);
+  backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid color-mix(in oklab, var(--gold) 18%, transparent);
+}
+
+@utility glass-strong {
+  background: color-mix(in oklab, var(--card) 96%, transparent);
+  backdrop-filter: blur(30px) saturate(180%);
+  border: 1px solid color-mix(in oklab, var(--gold) 24%, transparent);
+}
+
+@utility luxe-card {
+  border-radius: calc(var(--radius) + 10px);
+  background: linear-gradient(165deg, color-mix(in oklab, var(--card) 92%, transparent), color-mix(in oklab, var(--ink) 92%, transparent));
+  border: 1px solid color-mix(in oklab, var(--gold) 16%, transparent);
+  box-shadow: var(--shadow-luxe);
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@utility gold-rule {
+  height: 2px;
+  width: 4.5rem;
+  background-image: var(--gradient-gold);
+  border-radius: 999px;
+}
+
+@utility shadow-gold {
+  box-shadow: var(--shadow-gold);
+}
+
+@utility hover-lift {
+  transition:
+    transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 0.4s ease,
+    border-color 0.4s ease;
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-gold);
+    border-color: color-mix(in oklab, var(--gold) 45%, transparent);
+  }
+}
+
+@utility section-pad {
+  padding-block: 3.5rem;
+  @media (min-width: 768px) {
+    padding-block: 5rem;
+  }
+  @media (min-width: 1024px) {
+    padding-block: 7.5rem;
+  }
+}
+
+@utility shell {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 84rem;
+  padding-inline: 1rem;
+  box-sizing: border-box;
+  @media (min-width: 640px) {
+    padding-inline: 1.5rem;
+  }
+  @media (min-width: 1024px) {
+    padding-inline: 2.5rem;
+  }
+}
+
+@utility eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--gold);
+}
+
+@keyframes shimmer-sweep {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes shimmer-slide {
+  0% {
+    transform: translateX(-150%) skewX(-20deg);
+  }
+  40%, 100% {
+    transform: translateX(250%) skewX(-20deg);
+  }
+}
+
+@keyframes gold-glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 8px rgba(245, 158, 11, 0.4), 0 0 16px rgba(234, 179, 8, 0.18);
+  }
+  50% {
+    box-shadow: 0 0 12px rgba(245, 158, 11, 0.6), 0 0 22px rgba(234, 179, 8, 0.25);
+  }
+}
+
+@utility register-cta-glow {
+  animation: gold-glow-pulse 2.6s ease-in-out infinite;
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 8mm 10mm;
+  }
+
+  *, *::before, *::after {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  html, body {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    min-height: 0 !important;
+    height: auto !important;
+  }
+
+  header, footer, nav, aside, .print\:hidden, [data-sonner-toaster], [role="region"], section:has(img) {
+    display: none !important;
+  }
+
+  /* Prevent dark theme parent containers from tinting print canvas */
+  main, div:not(#printable-invoice):not(#printable-admit-card):not(.printable-document), section, article {
+    background: transparent !important;
+    background-color: transparent !important;
+  }
+
+  #printable-invoice, #printable-admit-card, .printable-document {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+    border: 2px solid #000000 !important;
+    padding: 16px 20px !important;
+    margin: 0 auto !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    display: block !important;
+    box-sizing: border-box !important;
+  }
+
+  #printable-invoice *, #printable-admit-card *, .printable-document * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+/* ==========================================================================
+   Universal Custom Dropdown (Select & Options) Styling
+   Theme: WSF Dark Luxe Gold Theme
+   ========================================================================== */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23d4af37' stroke-width='2.2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.85rem center;
+  background-size: 1.1rem;
+  padding-right: 2.5rem !important;
+  color: var(--color-foreground);
+  background-color: color-mix(in oklab, var(--card) 92%, transparent);
+  border: 1px solid color-mix(in oklab, var(--gold) 22%, transparent);
+  border-radius: var(--radius);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+select:hover {
+  border-color: color-mix(in oklab, var(--gold) 45%, transparent);
+  background-color: color-mix(in oklab, var(--card) 98%, transparent);
+}
+
+select:focus,
+select:focus-visible {
+  border-color: var(--gold) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px color-mix(in oklab, var(--gold) 35%, transparent) !important;
+  background-color: var(--card) !important;
+}
+
+select option {
+  background-color: #161410 !important;
+  color: #f3f4f6 !important;
+  padding: 10px 14px !important;
+  font-size: 0.875rem !important;
+}
+
+select option:checked,
+select option:hover {
+  background-color: #2a2414 !important;
+  color: #f59e0b !important;
+  font-weight: 600;
+}
+
+select optgroup {
+  background-color: #0f0e0c !important;
+  color: #d4af37 !important;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ==========================================================================
+   Universal Date & Time Input Calendar Icon Visibility (Dark Theme & Gold Accent)
+   Fixes browser native calendar icon being black/invisible on dark inputs
+   ========================================================================== */
+input[type="date"],
+input[type="datetime-local"],
+input[type="time"],
+input[type="month"],
+input[type="week"] {
+  color-scheme: dark !important;
+  position: relative;
+}
+
+/* WebKit (Chrome, Edge, Safari, Brave, Opera) calendar icon */
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="datetime-local"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator,
+input[type="month"]::-webkit-calendar-picker-indicator,
+input[type="week"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 4px;
+  filter: invert(0.8) sepia(100%) saturate(600%) hue-rotate(5deg);
+  opacity: 0.92;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover,
+input[type="datetime-local"]::-webkit-calendar-picker-indicator:hover,
+input[type="time"]::-webkit-calendar-picker-indicator:hover,
+input[type="month"]::-webkit-calendar-picker-indicator:hover,
+input[type="week"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
+  transform: scale(1.12);
+  filter: invert(0.9) sepia(100%) saturate(800%) hue-rotate(10deg);
+  background-color: rgba(212, 175, 55, 0.18);
+}
+
+/* ==========================================================================
+   Portal Utility Styles (Unified Multi-Module Ecosystem)
+   ========================================================================== */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fef08a 0%, #f0b90b 50%, #b8860b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #fef08a 0%, #f0b90b 50%, #b8860b 100%);
+}
+.bg-obsidian-950, .bg-dark-950 { background-color: #080a0d !important; }
+.bg-obsidian-900, .bg-dark-900 { background-color: #0e1117 !important; }
+.bg-obsidian-850, .bg-dark-850 { background-color: #131820 !important; }
+.bg-obsidian-800, .bg-dark-800 { background-color: #181f2a !important; }
+.bg-obsidian-700, .bg-dark-700 { background-color: #1f2837 !important; }
+
+

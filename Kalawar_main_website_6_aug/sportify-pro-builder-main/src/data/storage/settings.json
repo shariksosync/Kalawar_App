@@ -1,0 +1,67 @@
+{
+  "federationName": "KALAWAR Sports & Martial Arts Federation of India",
+  "contactEmail": "kalawarmartialartsindia@gmail.com",
+  "contactPhone": "+91 70833 14435 / +91 95614 27125",
+  "activeSeason": "2026",
+  "address": "National Headquarters, India",
+  "googleMapsUrl": "https://share.google/31PQfjzetEDIADnHy",
+  "acceptRegistrations": true,
+  "publishResults": true,
+  "maintenanceMode": false,
+  "enableShop": true,
+  "announcementBanner": "🥋 🇮🇳 ⭐ AFFILIATIONS OPEN ⭐ 🇮🇳 🥋  🏆 ALL STATES | 📍 DISTRICTS | 🥋 ACADEMIES | 🤝 CLUBS",
+  "announcementBannerEnabled": true,
+  "introVideoEnabled": true,
+  "introVideoUrl": "https://youtube.com/shorts/hNW3a17IdMU?si=YNI2mCqYeBbY3reu",
+  "introVideoFrequency": "always",
+  "introVideoTitle": "KALAWAR SPORTS & MARTIAL ARTS FEDERATION OF INDIA",
+  "introVideoTagline": "Indian Martial Arts • Sports • Skill • Discipline • Excellence",
+  "bannerSlides": [
+    {
+      "id": "slide-1",
+      "image": "https://res.cloudinary.com/pqe7rin3/image/upload/v1792062040/kalawar_banners/gja1bpo89r5bidkilxly.png",
+      "alt": "Kalawar Sports & Martial Arts Championship Banner 1",
+      "title": "National Championship 2026",
+      "link": "/championship/register",
+      "active": true,
+      "_id": "6ad0b26b2b3d62f483f01174"
+    },
+    {
+      "id": "slide-2",
+      "image": "https://res.cloudinary.com/pqe7rin3/image/upload/v1792061967/kalawar_banners/gxwlnbapn2zmu9wtfutx.png",
+      "alt": "Kalawar Sports & Martial Arts Championship Banner 2",
+      "title": "Miting for state and national",
+      "link": "Refree and coach",
+      "active": true,
+      "_id": "6ad0b26b2b3d62f483f01175"
+    },
+    {
+      "id": "slide-3",
+      "image": "https://res.cloudinary.com/pqe7rin3/image/upload/v1792061871/kalawar_banners/m6lysxmn59z4jzcaqlne.png",
+      "alt": "Kalawar Sports & Martial Arts Championship Banner 3",
+      "title": "Affiliation open for all state and district",
+      "link": "Events 7",
+      "active": true,
+      "_id": "6ad0b26b2b3d62f483f01176"
+    },
+    {
+      "id": "slide-4",
+      "image": "https://res.cloudinary.com/pqe7rin3/image/upload/v1792061798/kalawar_banners/oafa1nmw1pbwmwe1xqxi.png",
+      "alt": "Kalawar Sports & Martial Arts Championship Banner 4",
+      "title": "Pro fighting coming soon",
+      "link": "Fighters",
+      "active": true,
+      "_id": "6ad0b26b2b3d62f483f01177"
+    },
+    {
+      "id": "slide-5",
+      "image": "https://res.cloudinary.com/pqe7rin3/image/upload/v1792061665/kalawar_banners/u0x73dfzussnbprbcz7s.png",
+      "alt": "Kalawar Sports & Martial Arts Championship Banner 5",
+      "title": "Martial arts and fitness india record",
+      "link": "Power of Record",
+      "active": true,
+      "_id": "6ad0b26b2b3d62f483f01178"
+    }
+  ],
+  "updatedAt": "2026-10-15T11:39:02.732Z"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "TIER-001",
+    "name": "Founder & President",
+    "order": 1,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "TIER-002",
+    "name": "Director / Working President",
+    "order": 2,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "TIER-003",
+    "name": "National Officials",
+    "order": 3,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "TIER-004",
+    "name": "Technical Committee",
+    "order": 4,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "TIER-005",
+    "name": "State Officials",
+    "order": 5,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "TIER-006",
+    "name": "District Officials",
+    "order": 6,
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "TIER-007",
+    "name": "Warrior",
+    "order": 7,
+    "createdAt": "2026-09-19T07:27:38.110Z",
+    "updatedAt": "2026-09-19T07:27:38.110Z"
+  },
+  {
+    "id": "TIER-008",
+    "name": "Director",
+    "order": 8,
+    "createdAt": "2026-09-19T07:28:55.621Z",
+    "updatedAt": "2026-09-19T07:28:55.621Z"
+  }
+]

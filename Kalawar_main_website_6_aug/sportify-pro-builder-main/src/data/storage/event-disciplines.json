@@ -1,0 +1,58 @@
+[
+  {
+    "id": "EVT-DISC-01",
+    "name": "Kalawar Kaya Yuddha",
+    "order": 1,
+    "createdAt": "2026-09-21T21:01:58.357Z",
+    "updatedAt": "2026-09-21T21:01:58.357Z"
+  },
+  {
+    "id": "EVT-DISC-02",
+    "name": "Kalawar Charana Yuddha",
+    "order": 2,
+    "createdAt": "2026-09-21T21:01:58.357Z",
+    "updatedAt": "2026-09-21T21:01:58.357Z"
+  },
+  {
+    "id": "EVT-DISC-03",
+    "name": "Kalawar Santulana",
+    "order": 3,
+    "createdAt": "2026-09-21T21:01:58.357Z",
+    "updatedAt": "2026-09-21T21:01:58.357Z"
+  },
+  {
+    "id": "EVT-DISC-04",
+    "name": "Kalawar Sparsha Yuddha",
+    "order": 4,
+    "createdAt": "2026-09-21T21:01:58.357Z",
+    "updatedAt": "2026-09-21T21:01:58.357Z"
+  },
+  {
+    "id": "EVT-DISC-05",
+    "name": "Kalawar Sangama Kala",
+    "order": 5,
+    "createdAt": "2026-09-21T21:01:58.357Z",
+    "updatedAt": "2026-09-21T21:01:58.357Z"
+  },
+  {
+    "id": "EVT-DISC-06",
+    "name": "Kalawar Danda Yuddha",
+    "order": 6,
+    "createdAt": "2026-09-21T21:01:58.357Z",
+    "updatedAt": "2026-09-21T21:01:58.357Z"
+  },
+  {
+    "id": "EVT-DISC-07",
+    "name": "Kalawar Malla Yuddha",
+    "order": 7,
+    "createdAt": "2026-09-21T21:01:58.357Z",
+    "updatedAt": "2026-09-21T21:01:58.357Z"
+  },
+  {
+    "id": "EVT-DISC-08",
+    "name": "Malla Yuddha, Danda & Anukkama",
+    "order": 8,
+    "createdAt": "2026-09-21T21:13:04.774Z",
+    "updatedAt": "2026-09-21T21:13:04.774Z"
+  }
+]
